@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withCounter: *c1* and c2 after dec 1`] = `
+<div>
+  foo
+  : 
+  14
+</div>
+`;
+
+exports[`withCounter: c1 after inc 1`] = `
+<div>
+  foo
+  : 
+  15
+</div>
+`;
+
+exports[`withCounter: c1 after subscribe 1`] = `
+<div>
+  foo
+  : 
+  10
+</div>
+`;
+
+exports[`withCounter: c1 and *c2* after dec 1`] = `
+<div>
+  foo
+  : 
+  14
+</div>
+`;
+
+exports[`withCounter: c1 loading 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`withCounter: c2 after subscribe 1`] = `
+<div>
+  foo
+  : 
+  15
+</div>
+`;

@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter: c1 after inc 1`] = `
+<div>
+  <div>
+    <strong>
+      baz
+      : 
+    </strong>
+    <span>
+      33
+    </span>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      dec
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      inc
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Counter: c1 after subscribe 1`] = `
+<div>
+  <div>
+    <strong>
+      baz
+      : 
+    </strong>
+    <span>
+      32
+    </span>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      dec
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      inc
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Counter: c1 loading 1`] = `
+<div>
+  <div>
+    <strong>
+      baz
+      : 
+    </strong>
+    <span />
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      dec
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      inc
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Render: c1 - no counterId - loading 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Render: c2 - no count - loading 1`] = `
+<div>
+  <div>
+    <strong>
+      baz
+      : 
+    </strong>
+    <span />
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      dec
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      inc
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Render: c3 - renders counter 1`] = `
+<div>
+  <div>
+    <strong>
+      baz
+      : 
+    </strong>
+    <span>
+      9
+    </span>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      dec
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      inc
+    </button>
+  </div>
+</div>
+`;
